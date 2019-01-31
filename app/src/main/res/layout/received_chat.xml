@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/Chat_Container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/chattronsent"
+        android:paddingEnd="54dp"
+        android:paddingStart="4dp"
+        android:paddingTop="4dp"
+        android:visibility="visible"
+        android:layout_gravity="end"
+        android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/sender_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fdfdfd"
+                android:textSize="12sp"
+                android:textAllCaps="true"
+                android:textStyle="italic"
+                android:text="from mr tron"/>
+
+
+        <TextView
+            android:id="@+id/chat_topic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fdfdfd"
+            android:textSize="12sp"
+            android:padding="3dp"
+            android:layout_marginTop="3dp"
+            android:textStyle="italic"
+            android:text="About this Item" />
+        <ImageView
+            android:id="@+id/received_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/maxt"
+            android:padding="4dp"
+            android:layout_marginTop="3dp"/>
+
+        <TextView
+            android:id="@+id/received_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:padding="3dp"
+            android:text="Hello Brise How re you doing"
+            android:textColor="#fdfdfd"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/received_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="23dp"
+            android:text="21/01/1993 - 14:45:57"
+            android:textColor="#fdfdfd"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/Chat_Container1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/chattronrecvd"
+        android:paddingTop="4dp"
+        android:visibility="visible"
+        android:layout_gravity="start"
+        android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/sender_name1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textSize="12sp"
+                android:textColor="#024aa3"
+                android:textAllCaps="true"
+                android:textStyle="italic"
+                android:text="from mr tron"/>
+
+
+        <TextView
+            android:id="@+id/chat_topic1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#024aa3"
+            android:textSize="12sp"
+            android:padding="3dp"
+            android:layout_marginTop="3dp"
+            android:textStyle="italic"
+            android:text="About this Item" />
+        <ImageView
+            android:id="@+id/received_image1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/maxt"
+            android:padding="4dp"
+            android:layout_marginTop="3dp"/>
+
+        <TextView
+            android:id="@+id/received_text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:padding="3dp"
+            android:text="Hello Brise How re you doing"
+            android:textColor="#024aa3"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/received_time1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="end"
+            android:layout_marginTop="24dp"
+            android:text="21/01/1993 - 14:45:57"
+            android:textColor="#024aa3"
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+
+    </LinearLayout>
+
+</LinearLayout>

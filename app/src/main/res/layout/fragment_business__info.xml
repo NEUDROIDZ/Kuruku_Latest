@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:weightSum="18"
+    android:background="@drawable/background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".business.Business_Info">
+
+    <TextView
+        android:id="@+id/Htitle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="BUSINESS PROFILE"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:fontFamily="@font/threesixty"
+        android:textColor="#001201"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"/>
+
+    <EditText
+        android:id="@+id/businessname"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:inputType="textPersonName"
+        android:hint="Name of your shop"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/businessLocation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_marginTop="5dp"
+        android:hint="where is your shop?"
+        android:gravity="center"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/Breference"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_marginTop="5dp"
+        android:hint="most popular place around your shop"
+        android:gravity="center"
+        android:inputType="text"/>
+    <Spinner
+        android:id="@+id/shoptype"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:entries="@array/business_types">
+
+    </Spinner>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.5"/>
+
+    <Button
+        android:id="@+id/saveshop"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:background="@drawable/tview"
+        android:gravity="center"
+        android:text="Save"
+        android:textColor="#011831"
+        android:textSize="24sp" />
+
+</LinearLayout>

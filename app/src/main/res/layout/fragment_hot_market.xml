@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".items.HotMarket">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_hot_Items"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+
+
+    </android.support.v7.widget.RecyclerView>
+    <Button
+        android:id="@+id/addhotItem"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/tview"
+        android:gravity="center"
+        android:text="add a new item"
+        android:textColor="#011831"
+        android:textSize="24sp" />
+
+
+</LinearLayout>

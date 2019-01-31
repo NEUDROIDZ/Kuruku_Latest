@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "816298454948",
+    "firebase_url": "https://alphaversereborn.firebaseio.com",
+    "project_id": "alphaversereborn",
+    "storage_bucket": "alphaversereborn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816298454948:android:35f9409af50e9449",
+        "android_client_info": {
+          "package_name": "com.brise.tron.alphaverse_reborn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816298454948-078uul51rgtr11tcfc30omuvoefaos4s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.brise.tron.alphaverse_reborn",
+            "certificate_hash": "ef8daad8442e3e2f5fa99449b8cec71bd6e082dc"
+          }
+        },
+        {
+          "client_id": "816298454948-h4fe84ktnpkhv0rac58g1oedqlj44cnn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.brise.tron.alphaverse_reborn",
+            "certificate_hash": "d03a8a559b5e775543f6e60f56228045c6f44d8e"
+          }
+        },
+        {
+          "client_id": "816298454948-i0qota4bgceoeq41kcedhtrf6edrbeh8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmfhPRFECjvPpeKLzQYDXC97O4v32dVC8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816298454948-i0qota4bgceoeq41kcedhtrf6edrbeh8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

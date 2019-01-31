@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:weightSum="18"
+    android:background="@drawable/background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".userprofile.UserHome">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="@string/profile_information"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:fontFamily="@font/threesixty"
+        android:textColor="#011831"/>
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Profile Picture"
+        android:textColor="#011831" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/Pphoto"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:contentDescription="@string/profile"
+            android:src="@drawable/ic_eln8"
+            app:civ_border_color="#a604fd"
+            app:civ_border_width="2dp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/usersname"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:inputType="textPersonName"
+        android:hint="User Name"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/emailAddr"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:hint="email address if any"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/Residence"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:inputType="textPersonName"
+        android:layout_marginTop="5dp"
+        android:hint="Address"
+        android:gravity="center" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"/>
+
+    <Button
+        android:id="@+id/saveprofile"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@drawable/tview"
+        android:gravity="center"
+        android:text="Save info"
+        android:textColor="#011831"
+        android:textSize="24sp" />
+
+</LinearLayout>

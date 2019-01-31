@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2090da</color>
+    <color name="colorPrimaryDark">#2090da</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="green">#027e0a</color>
+    <color name="darkblue">#013571</color>
+    <color name="tabitem">#07334e</color>
+    <color name="skyblue">#247ac1</color>
+    <color name="pale">#2090da</color>
+    <color name="appbar">#ffffff</color>
+</resources>
